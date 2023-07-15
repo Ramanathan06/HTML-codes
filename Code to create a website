@@ -1,0 +1,378 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="none,noarchive">
+</head>
+
+<body>
+    <div id="section1">
+        <div class="outterpage">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="head-outterpic">
+            <h2>My Projects</h2>
+            <p>These are a few of my static websites projects that I have developed using HTML,CSS and Bootstrap</p>
+
+            <div class="row-box">
+                <div class="row-box-1 d-flex flex-row justify-content-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png" class="outterpic1" onclick="display('section2')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/iphoneX-bg.png" class="outterpic1" onclick="display('section3')">
+                </div>
+                <div class="row-box-2 d-flex flex-row justify-content-center">
+                    <img src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&amp;dl=pexels-chan-walrus-958545.jpg&amp;fm=jpg" class="outterpic1" onclick="display('section4')">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png" class="outterpic1" onclick="display('section5')">
+                </div>
+                <div class="row-box-3 d-flex flex-row justify-content-center">
+                    <img src="https://wallpaperaccess.com/full/625497.jpg" class="outterpic1" onclick="display('section6')">
+                </div>
+            </div>
+            <div class="editor d-flex flex-row justify-content-end">
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="black-line">
+            <br>
+            <br>
+        </div>
+        <div class="social">
+            <h4>Created by</h4>
+            <h2>Ramanathan</h2>
+            <br>
+            <br>
+            <div class="social-content d-flex flex-row justify-content-center">
+                <div class="soical-card">
+                    <a href="https://www.instagram.com/ram._.06_/">
+                        <img src="https://workingwithdog.com/wp-content/uploads/2016/05/new_instagram_logo.jpg" class="social-pic" />
+                    </a>
+                    <p>My instagram account</p>
+                </div>
+                <div class="social-card">
+                    <a href="https://www.linkedin.com/in/ramanathan-m-a6694822a/">
+                        <img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" class="social-pic1" />
+                    </a>
+                    <p>My LinkediIn account</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="section2" style="display: none;">
+        <div class="project1">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">My Projects</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" onclick="display('section1')">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="pj-1-bg-container d-flex flex-column justify-content-end">
+                <div class="pj-1-card">
+                    <h1 class="pj-1-heading">Advanced Technologies</h1>
+                    <p class="pj-1-para">Machinery and equipment developed from the application of scientific knowledge</p>
+                    <div class="pj-1-buttonplace d-flex flex-row">
+                        <button class="pj-1-but pj-1-but1">Learn more</button>
+                        <button class="pj-1-but pj-1-but2" onclick="display('section1')">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section3" style="display: none;">
+        <div class="pj-2-card">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">My Projects</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" onclick="display('section1')">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="pj-2-img">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/iphoneX-bg.png" class="pj-2-img1">
+            </div>
+            <div class="pj-2-content">
+                <h3 class="pj-2-heading">specifications:</h3>
+                <div class="pj-2-content1">
+                    <ul class="pj-2-list">
+                        <li>3 GB RAM</li>
+                        <li>5.80 Super Retina HD OLED Display</li>
+                        <li>Front Camera 7MP</li>
+                        <li>Rear Camera 12MP+12MP</li>
+                        <li>Apple A11 Bionic Processor</li>
+                        <li>Battery Capacity 2716mAH</li>
+                    </ul>
+                </div>
+                <button class="pj-2-button" href="https://www.apple.com/in/newsroom/2018/09/apple-introduces-iphone-xr/">Buy Now</button>
+                <button class="pj-2-button2" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section4" style="display: none;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Projects</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" onclick="display('section1')">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="pj-3-bg-container d-flex flex-column justify-content-end">
+
+            <div class="pj-3-card">
+
+                <h1 class="pj-3-heading">Happy Meals</h1>
+                <p class="pj-3-text">Discover the best foods over the 1000
+                    restaurant</p>
+                <button class="pj-3-button">Book Now</button>
+                <button class="pj-3-button1" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section5" style="display: none;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Projects</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" onclick="display('section1')">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="pj-4-bg-background d-flex flex-column justify-content-end">
+
+            <div class="pj-4-content">
+                <h5 class="pj-4-heading1">NEWS OF THE DAY</h5>
+                <p class="pj-4-para">iB Cricket announces world's first virtual Reality Cricket League</p>
+                <p>iB cricket and viu together have announced the world's first vvirtual reality cricket league featuring 12 international cricketers,who will be competing against each other for the iB cricket super over league</p>
+                <button class="pj-4-btn">Read more</button>
+                <button class="pj-4-btn" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section6" style="display: none;">
+
+
+        <div class="bg-card">
+            <div class="card">
+                <h1 class="main-heading">
+                    Games to Play
+                </h1>
+                <p class="paragraph">
+                    Explore new Games here!!!!!
+                </p>
+                <button class="btn-outline-danger" onclick="display('section7')"> search here</button>
+                <button class="btn-outline-danger" onclick="display('section1')"> Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section7" style="display: none;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Projects</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" onclick="display('section1')">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="bg-container">
+            <h1 class="heading">Top 5 Games :</h1>
+            <div class="outtercard">
+                <div class="first d-flex flex-row">
+                    <div class="GTAV" href="https://www.rockstargames.com/">
+                        <h1 class="heading" href="https://www.rockstargames.com/">1.GTA V</h1>
+                        <p class="text">Grand Theft Auto V is also an intelligent, wickedly comic, and bitingly relevant commentary on contemporary, post-economic crisis America. Everything about it drips satire: it rips into the Millennial generation, celebrities, the far right, the far left, the middle class, the media... Nothing is safe from Rockstar’s sharp tongue, including modern video games.</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+
+            <div class="outtercard d-flex flex-row">
+                <div class="Godofwar" href="https://en.wikipedia.org/wiki/God_of_War_(franchise)">
+                    <h1 class="heading" href="https://en.wikipedia.org/wiki/God_of_War_(franchise)">2.God of War IV</h1>
+                    <p class="text">God of War[b] is an action-adventure video game developed by Santa Monica Studio and published by Sony Interactive Entertainment (SIE). It was released in April 2018 for the PlayStation 4, with a Microsoft Windows version released in January 2022. The game is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III.</p>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/id/thumb/a/a7/God_of_War_4_cover.jpg/220px-God_of_War_4_cover.jpg" class="pic" href="https://en.wikipedia.org/wiki/God_of_War_(franchise)">
+            </div>
+            <div class="outtercard d-flex flex-row">
+                <div class="tom raider">
+                    <a href="https://tombraiderblog.square-enix-games.com/en-us/motp/">
+                        <h1 class="heading">3.Tom Raider</h1>
+                    </a>
+                    <p class="text">Shadow of the Tomb Raider is a 2018 action-adventure video game developed by Eidos-Montréal and published by Square Enix's European subsidiary. It continues the narrative from the 2015 game Rise of the Tomb Raider and is the twelfth mainline entry in the Tomb Raider series, as well as the third and final entry of the Survivor trilogy. The game was originally released worldwide for Microsoft Windows, PlayStation 4 and Xbox One. Versions for macOS and Linux, and Stadia, were released in November 2019. After release, the game was expanded upon with downloadable content in both a season pass and as standalone releases.</p>
+                </div>
+                <a href="https://tombraiderblog.square-enix-games.com/en-us/motp/">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/1/11/Shadow_of_the_Tomb_Raider_cover.png" class="pic">
+                </a>
+            </div>
+            <div class="outtercard d-flex flex-row">
+                <div class="spiderman">
+                    <a href="https://insomniac.games/game/spider-man-ps4">
+                        <h1 class="heading">4.Marvel's Spiderman</h1>
+                    </a>
+                    <p class="text">Marvel's Spider-Man[b] is a 2018 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment. Based on the Marvel Comics character Spider-Man, it tells an original narrative that is inspired by the long-running comic book mythology, while also drawing from various adaptations in other media. In the main story, the super-human crime lord Mister Negative orchestrates a plot to seize control of New York City's criminal underworld. When Mister Negative threatens to release a deadly virus, Spider-Man must confront him and protect the city while dealing with the personal problems of his civilian persona, Peter Parker.</p>
+                </div>
+                <a href="https://insomniac.games/game/spider-man-ps4">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg">
+                </a>
+            </div>
+            <div class="outtercard d-flex flex-row">
+                <div class="hitman">
+                    <a herf="https://www.ioi.dk/hitman/">
+                        <h1 class="heading">5.Hitman 3</h1>
+                    </a>
+                    <p class="text">Hitman 3 (stylized as HITMAN III) is a 2021 stealth game developed and published by IO Interactive. It is the sequel to the 2018 video game Hitman 2, the eighth main installment in the Hitman series and the third and final entry in the World of Assassination trilogy. Concluding the plot arc started in Hitman, the single-player storyline follows genetically-engineered assassin Agent 47 and his allies as they hunt down the leaders of the secretive organization Providence, which controls the world's affairs and was partially responsible for 47's creation and upbringing.</p>
+                </div>
+                <a herf="https://www.ioi.dk/hitman/">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/4/4b/Hitman_3_Packart.jpg">
+                </a>
+            </div>
+            <button class="backbtn btn btn-outline-danger" onclick="display('section1')">back</button>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
