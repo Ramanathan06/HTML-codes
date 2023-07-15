@@ -376,3 +376,398 @@
 </body>
 
 </html>
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!CSS file!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.outterpage {
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-family: "bree serif";
+    background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+    width: 100vw;
+    background-size: cover;
+}
+
+.head-outterpic {
+    height: 200px;
+    width: 300px;
+}
+
+.outterpic {
+    height: 120px;
+
+    width: 180px;
+    border-radius: 20px;
+
+    padding: 10px;
+}
+
+.outterpic1 {
+    height: 120px;
+    text-align: center;
+    width: 180px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.row-box {
+    text-align: center;
+}
+
+
+.pj-1-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.pj-1-heading {
+    font-family: "Bree serif";
+}
+
+.pj-1-para {
+    font-family: "Roboto";
+}
+
+.pj-1-card {
+    border-top-right-radius: 20px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    padding: 20px;
+}
+
+.pj-1-but {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.pj-1-but1 {
+    margin-right: 10px;
+    border-width: 0px;
+}
+
+.pj-1-but2 {
+    color: white;
+    background-color: purple;
+    border-width: 0px;
+    margin-left: 20px;
+}
+
+.pj-2-card {
+    border-style: solid;
+    border-color: #707070;
+}
+
+.pj-2-img1 {
+    height: 500px;
+    width: 545px;
+}
+
+.pj-2-content {
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.pj-2-heading {
+    font-weight: bold;
+}
+
+.pj-2-button {
+    margin-left: 150px;
+    border-width: 0px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.pj-2-button2 {
+
+    border-width: 0px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.pj-3-bg-container {
+    background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chan-walrus-958545.jpg&fm=jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.pj-3-card {
+    font-family: "Bree serif";
+    background-color: #f5cb42;
+    padding: 20px;
+}
+
+.pj-3-button {
+    border: 0px;
+    background-color: white;
+    padding: 8px;
+    width: 140px;
+    border-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.pj-3-button1 {
+    border: 0px;
+    background-color: white;
+    padding: 8px;
+    width: 140px;
+    border-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.pj-4-bg-background {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.pj-4-heading1 {
+    color: grey;
+}
+
+.pj-4-para {
+    font-size: 25px;
+}
+
+.pj-4-content {
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px;
+}
+
+.pj-4-btn {
+    background-color: black;
+    color: white;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.bg-card {
+    background-image: url("https://wallpaperaccess.com/full/625497.jpg");
+    color: black;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 250px;
+
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    color: black;
+    border-radius: 25px;
+    border-width: 2px;
+
+}
+
+
+
+
+
+
+
+.bg-container {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/884/043/original/abstract-red-and-black-futuristic-gaming-background-in-livestream-free-vector.jpg");
+
+    width: 100vw;
+    background-size: cover;
+}
+
+
+
+.heading {
+    text-align: center;
+    color: #e6e3dc;
+    font-family: "Roboto";
+    text-decoration: underline;
+}
+
+.outtercard {
+    border-style: solid;
+    border-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.pic {
+    width: 200px;
+    height: 300px;
+}
+
+.text {
+    color: white;
+    font-family: airal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.backbtn {
+    color: black;
+    background-color: white;
+}
+
+.official-page {
+    color: black;
+    font-family: itallic;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: -100px;
+    width: 100px;
+}
+
+.bg-card {
+    background-image: url("https://wallpaperaccess.com/full/625497.jpg");
+    color: black;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 250px;
+
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    color: black;
+    border-radius: 25px;
+    border-width: 2px;
+
+}
+
+
+
+
+
+
+
+.bg-container {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/884/043/original/abstract-red-and-black-futuristic-gaming-background-in-livestream-free-vector.jpg");
+
+    width: 100vw;
+    background-size: cover;
+}
+
+
+
+.heading {
+    text-align: center;
+    color: #e6e3dc;
+    font-family: "Roboto";
+    text-decoration: underline;
+}
+
+.outtercard {
+    border-style: solid;
+    border-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.pic {
+    width: 200px;
+    height: 300px;
+}
+
+.text {
+    color: white;
+    font-family: airal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.backbtn {
+    color: black;
+    background-color: white;
+}
+
+.official-page {
+    color: black;
+    font-family: itallic;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: -100px;
+    width: 100px;
+}
+
+.editor {
+    color: white;
+
+}
+
+.btn11 {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.social {
+    background-image: url("https://www.travelanddestinations.com/wp-content/uploads/2021/07/Crediting-image-768x432.jpeg");
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.social-pic {
+    text-align: center;
+    background-color: white;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+
+}
+
+.social-pic1 {
+    text-align: center;
+    background-color: white;
+
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+
+}
+
+.social-card {
+    margin-left: 35px;
+
+}
+
+.black-line {
+    background-color: black;
+}
